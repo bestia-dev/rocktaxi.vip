@@ -1,0 +1,209 @@
+:root {
+  --logo-red-color: #E30613;
+  --logo-black-color: #1D1D1B
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p,
+a {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Generic styles */
+html {
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+  /* very dark */
+  background-color: #101010;
+}
+
+a:hover {
+  opacity: .9;
+}
+
+.phone_button_big {
+  vertical-align: middle;
+  font-size: 1.5rem;
+  padding: .5rem 1rem;
+  margin: .5rem;
+  font-family: 'Alfa Slab One', sans-serif;
+  font-weight: lighter;
+  background-color: var(--logo-red-color);
+  text-decoration: none;
+  color: white;
+  border-radius: .5rem;
+  text-align: center;
+  display: inline-block;
+  transition: all .3s;
+}
+
+.phone_button_big>img {
+  vertical-align: middle;
+}
+
+.phone_button_small {
+  padding: .5rem 1rem;
+  margin: .5rem;
+  font-family: 'Alfa Slab One', sans-serif;
+  font-weight: lighter;
+  background-color: var(--logo-red-color);
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+  border-radius: .25rem;
+  text-align: center;
+  display: inline-block;
+  transition: all .3s;
+}
+
+.small_title {
+  font-family: 'Alfa Slab One', sans-serif;
+  font-weight: lighter;
+  font-size: 1.5rem;
+  color: var(--logo-red-color);
+  padding-left: .7rem;
+  padding-top: .7rem;
+}
+
+/* Styles for the hero image */
+.hero {
+  background-image: url('images/taxi_uvod.jpg');
+  background-position: center center;
+  background-size: cover;
+  padding: 4rem 2rem;
+  /* grid styles */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  align-items: center;
+}
+
+.hero>* {
+  color: whitesmoke;
+}
+
+.hero>h1 {
+  font-size: 4rem;
+  padding-bottom: 1rem;
+  color: var(--logo-red-color);
+  font-family: 'Alfa Slab One', sans-serif;
+  font-weight: lighter;
+}
+
+.hero>h1>img {
+  width: 15rem;
+}
+
+/* breweries styles */
+.breweries {
+  padding: 1rem;
+}
+
+.breweries>ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
+}
+
+.breweries>ul>li {
+  /* border: 1px solid #E2E2E2; */
+  border-radius: .5rem;
+}
+
+.breweries>ul>li>figure {
+  max-height: 220px;
+  overflow: hidden;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+  position: relative;
+}
+
+.breweries>ul>li>figure>img {
+  width: 100%;
+}
+
+.breweries>ul>li>figure>figcaption {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .7);
+  width: 100%;
+}
+
+.breweries>ul>li>figure>figcaption>h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  color: white;
+  padding: .75rem;
+  font-size: 1.5rem;
+}
+
+.breweries>ul>li>p {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 1rem .75rem;
+  color: white;
+  text-align: justify;
+}
+
+/* superlatives grid*/
+.superlatives {
+  padding: 1rem;
+}
+
+.superlatives>ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
+}
+
+.superlatives>ul>li {
+  /* border: 1px solid #E2E2E2; */
+  border-radius: .5rem;
+}
+
+.superlative_cell {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-gap: 1rem;
+}
+
+.superlative_img {
+  vertical-align: text-top;
+  width: 8rem;
+}
+
+.superlative_p {
+  line-height: 1.5rem;
+  font-size: 1rem;
+  padding: 0rem .75rem;
+  color: white;
+}
+
+.list01 {
+  padding: 0rem 1rem;
+  font-size: 1.5rem;
+
+}
+
+.list01>li {
+  line-height: 3rem;
+  font-size: 1rem;
+  padding: 0rem .75rem;
+  color: white;
+}
+
+/* footer */
+footer {
+  background-color: #333;
+  padding: .75rem;
+  color: white;
+  text-align: center;
+  font-size: .75rem;
+}
