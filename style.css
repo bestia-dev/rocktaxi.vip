@@ -123,6 +123,9 @@ a:hover {
   border-top-left-radius: .5rem;
   border-top-right-radius: .5rem;
   position: relative;
+
+  display: table-cell;
+  vertical-align: bottom
 }
 
 .breweries>ul>li>figure>img {
