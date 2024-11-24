@@ -75,10 +75,10 @@ a:hover {
 
 /* Styles for the hero image */
 .hero {
-  background-image: url('images/taxi_uvod.jpg');
-  background-position: center center;
+  background-image: url('images/taxi_uvod3.jpg');
+  background-position: 47% center;
   background-size: cover;
-  padding: 4rem 2rem;
+  padding: 3rem 2rem;
   /* grid styles */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
